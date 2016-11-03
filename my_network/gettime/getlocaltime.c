@@ -1,5 +1,10 @@
 #include "../apue.h"
-
+/*
+1.apt-get install xinetd
+2.vi /etc/xinetd.d/daytime disable = yes gaiwei disable = no
+3.service xinetd stop   
+4.service xinetd start
+5.netstat -ant
 
 int main(int argc,char** argv)
 {
