@@ -5,7 +5,7 @@ dir = './scripts'
 for root,dirs,files in os.walk(dir):
 	for file in files:
 		file = './scripts/' + file
-		print file
+		#print file
 		with open(file,'r') as r:
 			lines = r.readlines()
 
