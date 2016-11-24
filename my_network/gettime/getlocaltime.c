@@ -5,7 +5,7 @@
 3.service xinetd stop   
 4.service xinetd start
 5.netstat -ant
-
+*/
 int main(int argc,char** argv)
 {
 	int sockfd,n;
